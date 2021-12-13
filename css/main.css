@@ -663,7 +663,7 @@ footer .under li a p.txt{
   padding: 10px 30px;
 }
 
-@media (max-width:414px){
+@media (max-width:600px){
   .layer_pop{
     width: 80vw;
     height: 60vh;
