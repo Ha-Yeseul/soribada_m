@@ -659,14 +659,18 @@ footer .under li a p.txt{
   background-color: #fff;
 }
 
-@media (max-width:400px){
+.layer_pop p{
+  padding: 10px 30px;
+}
+
+@media (max-width:414px){
   .layer_pop{
     width: 80vw;
-    height: 85vh;
+    height: 60vh;
   }
 
   .layer_pop .btn_wrap{
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -674,6 +678,13 @@ footer .under li a p.txt{
   .layer_pop{
     width: 500px;
     height: 300px;
+  }
+
+  .layer_pop .btn_wrap{
+    width: 50%;
+  }
+  .layer_pop p{
+    padding: 15px 50px;
   }
 }
 
@@ -685,7 +696,6 @@ footer .under li a p.txt{
 }
 
 .layer_pop p{
-  padding: 15px 50px;
   color: #313842;
   font-size: 16px;
   line-height: 2;
@@ -693,7 +703,6 @@ footer .under li a p.txt{
 
 .layer_pop .btn_wrap{
   position: absolute;
-  width: 50%;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
