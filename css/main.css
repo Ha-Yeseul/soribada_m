@@ -659,7 +659,7 @@ footer .under li a p.txt{
   background-color: #fff;
 }
 
-@media (max-width:375px){
+@media (max-width:400px){
   .layer_pop{
     width: 80%;
     height: 50%;
