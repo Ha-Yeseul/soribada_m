@@ -652,13 +652,25 @@ footer .under li a p.txt{
 }
 
 .layer_pop{
-  width: 500px;
-  height: 300px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
+}
+
+@media (max-width:375px){
+  .layer_pop{
+    width: 80%;
+    height: 50%;
+  }
+}
+
+@media (min-width: 785px){
+  .layer_pop{
+    width: 500px;
+    height: 300px;
+  }
 }
 
 .layer_pop h3{
