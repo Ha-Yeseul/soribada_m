@@ -662,7 +662,11 @@ footer .under li a p.txt{
 @media (max-width:400px){
   .layer_pop{
     width: 80vw;
-    height: 90vh;
+    height: 85vh;
+  }
+
+  .layer_pop .btn_wrap{
+    width: 100%;
   }
 }
 
