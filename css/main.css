@@ -714,11 +714,16 @@ footer .under li a p.txt{
 .layer_pop p{
   padding: 10px 30px;
 }
+@media (max-width:400px){
+  .layer_pop{
+    height: 45vh;
+  }
+}
 
 @media (max-width:600px){
   .layer_pop{
     width: 80vw;
-    height: 45vh;
+    height: 55vh;
   }
 
   .layer_pop .btn_wrap{
