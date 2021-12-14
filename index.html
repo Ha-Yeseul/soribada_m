@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Soribada</title>
-  <link href="css/reset.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/import.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -16,6 +16,7 @@
 </head>
 
 <body>
+  <form>
   <!--s::#wrap-->
   <div id="wrap">
     <header>
@@ -23,7 +24,11 @@
       <div class="gnb">
         <h1><a href="#" class="logo hidden">로고</a></h1>
         <div class="gnb_wrap">
+          <input type="text" class="search_box" placeholder="검색어를 입력해주세요">
           <a href="#" class="search hidden">검색</a>
+          <a href="#" class="voice hidden">마이크
+            <i class="fas fa-microphone"></i>
+          </a>
           <a href="#" class="menu hidden">메뉴</a>
         </div>
       </div>
@@ -40,6 +45,11 @@
         </ul>
       </div>
       <!--e::tag_button-->
+
+      <!-- s::nav -->
+      <nav></nav>
+      <!-- e::nav -->
+
     </header>
 
     <!--s::#container-->
@@ -810,6 +820,6 @@
       </div>
     </div>
   </div>
+  </form>
 </body>
-
 </html>

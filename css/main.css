@@ -3,16 +3,13 @@ body{
   background-color: #fff;
 }
 
-.con01{
-  background-color: #20252b;
-}
 #wrap{
   min-width: 350px;
   max-width: 550px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  background-color: #20252b;
+  background-color: #000;
 }
 header{
   position: fixed;
@@ -27,7 +24,7 @@ header .gnb{
   width: 100%;
   min-width: 350px;
   max-width: 550px;
-  background-color: #313842;
+  background-color: #000;
   padding: 0 25px;
 }
 
@@ -50,7 +47,17 @@ header .gnb .gnb_wrap{
   float: right;
   display: flex;
 }
-
+header .gnb .gnb_wrap .search_box{
+  height: 85%;
+  margin: auto 0;
+  border-radius: 0;
+  border: 0;
+  background-color: #313842;
+  padding: 5px 0;
+  margin-right: 10px;
+  text-align: center;
+  display: none;
+}
 header .gnb a.search{
   width: 35px;
   height: 50px;
@@ -75,6 +82,21 @@ header .gnb a.menu{
   top: 50%;
   right: 15px;
   transform: translateY(-50%); */
+}
+header .gnb a.voice{
+  width: 35px;
+  height: 50px;
+  display: block;
+  position: relative;
+}
+
+header .gnb a.voice i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
 }
 
 header .tag_button{
