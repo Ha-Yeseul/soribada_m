@@ -22,25 +22,25 @@ header.playerHd .inner i {
   font-size: 20px;
 }
 
-.player {
+/* .playerBox {
   height: calc(100vh - 50px);
-}
+} */
 
-.player .img_box {
+.playerBox .img_box {
   display: block;
   width: 100%;
-  margin: 50px 0;
+  margin: 80px 0 30px;
   clip-path: circle(48.7% at 50% 50%);
 }
 
-.player .img_box img {
+.playerBox .img_box img {
   position: relative;
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-.player .img_boxEvent {
+.playerBox .img_boxEvent {
   position: absolute;
   top: 0;
   left: 0;
@@ -53,43 +53,53 @@ header.playerHd .inner i {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  align-items: center;  
+  align-items: center;
 }
 
-.player .img_boxEvent a{
+.playerBox .img_boxEvent a {
   display: block;
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   /* background-image: linear-gradient(30deg, #5EFCE8 0%, #736EFE 100%); */
+  background-color: #313842;
+}
+
+.playerBox .img_boxEvent a:hover {
   background-color: #736EFE;
 }
 
-.player .img_boxEvent a i{
+.playerBox .img_boxEvent a i {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
 }
-.player .tit_box{
 
+.playerBox .tit_box {
+  /* background-color: #313842; */
   width: 100%;
-  height: 100px;
-  background-color: red;
+  padding: 50px 0;
 }
 
-.player .tit_box .inner{
+.playerBox .tit_box .inner {
   display: flex;
-  
-}
-.player .txt{
-  position: absolute;
-  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
-.player .love{
-  position: absolute;
-  right: 0;
+.playerBox .txt h2 {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.playerBox .txt p {
+  font-size: 16px;
+}
+
+.playerBox .love {
+  font-size: 28px;
 }
