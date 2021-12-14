@@ -42,13 +42,15 @@ $(document).ready(function () {
     loopAdditionalSlides : 1
   });
  
-  // headr btn 이벤트
+  // head btn 이벤트
   $("header .tag_button li").click(function (e) { 
     e.preventDefault();
     var curClass = $(this).attr("class");
+    var idx = curClass.indexOf("on");
     console.log(curClass);
+    console.log(idx);
 
-    if (curClass == "hash on") {
+    if (idx!=-1) {
       $(this).removeClass("on");
     }
     else{
@@ -60,9 +62,10 @@ $(document).ready(function () {
  $(".con05 li").click(function (e) { 
    e.preventDefault();
    var curClass = $(this).attr("class");
+   var idx = curClass.indexOf("on");
    console.log("con05"+curClass);
-   
-   if (curClass == "on") {
+
+   if (idx!=-1) {
      $(this).removeClass("on");
    }
    else{
