@@ -6,9 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Soribada</title>
+  <!-- style -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/import.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- script -->
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -17,809 +22,863 @@
 
 <body>
   <form>
-  <!--s::#wrap-->
-  <div id="wrap">
-    <header>
-      <!-- s::gnb -->
-      <div class="gnb">
-        <h1><a href="#" class="logo hidden">로고</a></h1>
-        <div class="gnb_wrap">
-          <input type="text" class="search_box" placeholder="검색어를 입력해주세요">
-          <a href="#" class="search hidden">검색</a>
-          <a href="#" class="voice hidden">마이크
-            <i class="fas fa-microphone"></i>
-          </a>
-          <a href="#" class="menu hidden">메뉴</a>
+    <!--s::#wrap-->
+    <div id="wrap">
+      <header>
+        <!-- s::gnb -->
+        <div class="gnb">
+          <h1><a href="#" class="logo hidden">로고</a></h1>
+          <div class="gnb_wrap">
+            <input type="text" class="search_box" placeholder="검색어를 입력해주세요">
+            <a href="#" class="search hidden">검색</a>
+            <a href="#" class="voice hidden">마이크
+              <i class="fas fa-microphone"></i>
+            </a>
+            <a href="#" class="menu hidden">메뉴</a>
+          </div>
         </div>
-      </div>
-      <!-- e::gnb -->
+        <!-- e::gnb -->
 
-      <!--s::tag_button-->
-      <div class="tag_button swiper">
-        <ul class="clear swiper-wrapper">
-          <li class="hash on swiper-slide"><a href="#">운동할 때</a></li>
-          <li class="hash swiper-slide"><a href="#">출근할 때</a></li>
-          <li class="hash swiper-slide"><a href="#">휴식중</a></li>
-          <li class="hash swiper-slide"><a href="#">집중</a></li>
-          <li class="hash swiper-slide"><a href="#">드라이브</a></li>
-        </ul>
-      </div>
-      <!--e::tag_button-->
-
-      <!-- s::nav -->
-      <nav></nav>
-      <!-- e::nav -->
-
-    </header>
-
-    <!--s::#container-->
-    <div id="container">
-      <!--s::.con01 / 즐겨듣는 음악-->
-      <div class="con01 swiper">
-        <h3>즐겨듣는 음악</h3>
-        <ul class="clear swiper-wrapper">
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/sunmi.jpg" alt="선미-you can't sit with us">
-              </div>
-              <div class="txt_box">
-                <h4>You can't sit with us</h4>
-                <p>선미</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img class="circle" src="img/yerin.jpg" alt="즐겨듣는 아티스트 - 백예린">
-              </div>
-              <div class="txt_box">
-                <h4>즐겨듣는 아티스트</h4>
-                <p>백예린</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/bts.jpg" alt="butter - 방탄소년단">
-              </div>
-              <div class="txt_box">
-                <h4>Butter</h4>
-                <p>방탄소년단</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/jessi.jpg" alt="cold blooded - 제시">
-              </div>
-              <div class="txt_box">
-                <h4>Cold Blooded</h4>
-                <p>Jessi</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/IVE_ELEVEN.jpg" alt="IVE - ELEVEN">
-              </div>
-              <div class="txt_box">
-                <h4>ELEVEN</h4>
-                <p>IVE</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/MINO-TANG.jpg" alt="MINO - TANG♡">
-              </div>
-              <div class="txt_box">
-                <h4>TANG♡</h4>
-                <p>MINO</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img class="circle" src="img/AKMU.jpg" alt="즐겨듣는 아티스트 - AKMU">
-              </div>
-              <div class="txt_box">
-                <h4>즐겨듣는 아티스트</h4>
-                <p>AKMU</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/SWJA.jpg" alt="선우정아-동거">
-              </div>
-              <div class="txt_box">
-                <h4>동거</h4>
-                <p>선우정아</p>
-              </div>
-            </a>
-          </li>
-
-        </ul>
-      </div>
-
-      <!-- visual -->
-      <div class="swiper visualWrap">
-        <div class="swiper-wrapper">
-          <!-- visual01 -->
-          <div class="visual swiper-slide">
-            <img src="img/visual.jpg">
-            <span>나를 위한 믹스</span>
-            <p>
-              <strong>드라이브 갈 때</strong><br>
-              국내음악 플레이리스트 50
-            </p>
-            <a href="#">바로가기 ></a>
-          </div>
-          <!-- visual01 -->
-
-          <!-- visual02 -->
-          <div class="visual swiper-slide">
-            <img src="img/visual02.jpg">
-            <span>나를 위한 믹스</span>
-            <p>
-              <strong>WINTER 크리스마스 맞이</strong><br>
-              캐롤 플레이리스트 50
-            </p>
-            <a href="#">바로가기 ></a>
-          </div>
-          <!-- visual02 -->
-
-          <!-- visual03 -->
-          <div class="visual swiper-slide">
-            <img src="img/visual03.jpg">
-            <span>나를 위한 믹스</span>
-            <p>
-              <strong>신나는 음악이 듣고 싶을때</strong><br>
-              클럽뮤직 플레이리스트 50
-            </p>
-            <a href="#">바로가기 ></a>
-          </div>
-          <!-- visual03 -->
+        <!--s::tag_button-->
+        <div class="tag_button swiper">
+          <ul class="clear swiper-wrapper">
+            <li class="hash on swiper-slide"><a href="#">운동할 때</a></li>
+            <li class="hash swiper-slide"><a href="#">출근할 때</a></li>
+            <li class="hash swiper-slide"><a href="#">휴식중</a></li>
+            <li class="hash swiper-slide"><a href="#">집중</a></li>
+            <li class="hash swiper-slide"><a href="#">드라이브</a></li>
+          </ul>
         </div>
-        <div class="swiper-scrollbar"></div>
-      </div>
-      <!-- visual -->
-
-      <!--s::.con02 / 오후에 어울리는 음악-->
-      <div class="con02 swiper">
-        <h3>오후에 어울리는 음악</h3>
-        <ul class="clear swiper-wrapper">
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/aespa01.jpg" alt="aespa-next level">
-              </div>
-              <div class="txt_box">
-                <h4>Next level</h4>
-                <p>aespa</p>
-              </div>
+        <!--e::tag_button-->
+        <!-- s::nav -->
+        <nav>
+          <div class="Xbox">
+            <a href="#" class="hidden close">엑스
+              <i class="fas fa-times"></i>
             </a>
-          </li>
+            <h2>마이메뉴</h2>
+          </div>
+          <ul>
+            <li>
+              <a href="#" class="my">
+                <div class="img_wrap">
+                  <img src="img/listen_person.jpg" alt="이미지">
+                </div>
+                <div class="txt_box">
+                  <h4>Listen Person</h4>
+                  <p>나의 계정 관리</p>
+                </div>
+                <div class="right">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-user listIcon"></i>
+                <p class="listTxt">내채널</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-history listIcon"></i>
+                <p class="listTxt">기록관리</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-won-sign listIcon"></i>
+                <p class="listTxt">정기결제관리</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-cog listIcon"></i>
+                <p class="listTxt">설정</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-info-circle listIcon"></i>
+                <p class="listTxt">공지사항</p>
+              </a>
+            </li>
 
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/MINO-TANG.jpg" alt="MINO - TANG♡">
-              </div>
-              <div class="txt_box">
-                <h4>TANG♡</h4>
-                <p>MINO</p>
-              </div>
-            </a>
-          </li>
+          </ul>
+        </nav>
+        <!-- e::nav -->
+      </header>
 
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img class="circle" src="img/AKMU.jpg" alt="즐겨듣는 아티스트 - AKMU">
-              </div>
-              <div class="txt_box">
-                <h4>즐겨듣는 아티스트</h4>
-                <p>AKMU</p>
-              </div>
-            </a>
-          </li>
 
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/SWJA.jpg" alt="선우정아-동거">
-              </div>
-              <div class="txt_box">
-                <h4>동거</h4>
-                <p>선우정아</p>
-              </div>
-            </a>
-          </li>
+      <!--s::#container-->
+      <div id="container">
+        <!--s::.con01 / 즐겨듣는 음악-->
+        <div class="con01 swiper">
+          <h3>즐겨듣는 음악</h3>
+          <ul class="clear swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/sunmi.jpg" alt="선미-you can't sit with us">
+                </div>
+                <div class="txt_box">
+                  <h4>You can't sit with us</h4>
+                  <p>선미</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/jessi.jpg" alt="jessi - cold blooded">
-              </div>
-              <div class="txt_box">
-                <h4>Cold Blooded</h4>
-                <p>Jessi</p>
-              </div>
-            </a>
-          </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img class="circle" src="img/yerin.jpg" alt="즐겨듣는 아티스트 - 백예린">
+                </div>
+                <div class="txt_box">
+                  <h4>즐겨듣는 아티스트</h4>
+                  <p>백예린</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/IU01.jpg" alt="아이유-라일락">
-              </div>
-              <div class="txt_box">
-                <h4>라일락</h4>
-                <p>아이유</p>
-              </div>
-            </a>
-          </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/bts.jpg" alt="butter - 방탄소년단">
+                </div>
+                <div class="txt_box">
+                  <h4>Butter</h4>
+                  <p>방탄소년단</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/Imyeongung.jpg" alt="임영웅-사랑은 늘 도망가">
-              </div>
-              <div class="txt_box">
-                <h4>사랑은 늘 도망가</h4>
-                <p>임영웅</p>
-              </div>
-            </a>
-          </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/jessi.jpg" alt="cold blooded - 제시">
+                </div>
+                <div class="txt_box">
+                  <h4>Cold Blooded</h4>
+                  <p>Jessi</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/IVE_ELEVEN.jpg" alt="IVE_ELEVEN">
-              </div>
-              <div class="txt_box">
-                <h4>ELEVEN</h4>
-                <p>IVE</p>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!--e::.con02 / 오후에 어울리는 음악-->
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/IVE_ELEVEN.jpg" alt="IVE - ELEVEN">
+                </div>
+                <div class="txt_box">
+                  <h4>ELEVEN</h4>
+                  <p>IVE</p>
+                </div>
+              </a>
+            </li>
 
-      <!--s::con03 / 인기차트-->
-      <div class="con03">
-        <div class="txt_box">
-          <h3>인기곡</h3>
-          <a href="#">모두 보기></a>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/MINO-TANG.jpg" alt="MINO - TANG♡">
+                </div>
+                <div class="txt_box">
+                  <h4>TANG♡</h4>
+                  <p>MINO</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img class="circle" src="img/AKMU.jpg" alt="즐겨듣는 아티스트 - AKMU">
+                </div>
+                <div class="txt_box">
+                  <h4>즐겨듣는 아티스트</h4>
+                  <p>AKMU</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/SWJA.jpg" alt="선우정아-동거">
+                </div>
+                <div class="txt_box">
+                  <h4>동거</h4>
+                  <p>선우정아</p>
+                </div>
+              </a>
+            </li>
+
+          </ul>
         </div>
 
-        <div class="swiper list">
+        <!-- visual -->
+        <div class="swiper visualWrap">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <!-- s::chart 1~4위-->
-              <ul class="chart">
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/jessi.jpg" alt="제시-cold blooded">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/upper_icon.png">
-                      <p class="chartNo_in">1</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>Cold Blooded</h4>
-                      <span>Jessi</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/aespa02.jpg" alt="에스파-savage">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/down_icon.png">
-                      <p class="chartNo_in">2</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>Savage</h4>
-                      <span>aespa</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/IU02.jpg" alt="아이유-strawberry moon">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/upper_icon.png">
-                      <p class="chartNo_in">3</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>Strawberry Moon</h4>
-                      <span>아이유</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/Imyeongung.jpg" alt="임영웅-사랑은 늘 도망가">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/down_icon.png">
-                      <p class="chartNo_in">4</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>사랑은 늘 도망가</h4>
-                      <span>임영웅</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-              <!-- e::chart -->
+            <!-- visual01 -->
+            <div class="visual swiper-slide">
+              <img src="img/visual.jpg">
+              <span>나를 위한 믹스</span>
+              <p>
+                <strong>드라이브 갈 때</strong><br>
+                국내음악 플레이리스트 50
+              </p>
+              <a href="#">바로가기 ></a>
             </div>
+            <!-- visual01 -->
 
-            <!-- s::chart 5~8위-->
-            <div class="swiper-slide">
-              <ul class="clear chart">
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/MINO-TANG.jpg" alt="MINO-TANG">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/upper_icon.png">
-                      <p class="chartNo_in">5</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>TANG♡</h4>
-                      <span>MINO</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/aespa01.jpg" alt="에스파-NEXTLEVEL">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/down_icon.png">
-                      <p class="chartNo_in">6</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>NEXT LEVEL</h4>
-                      <span>aespa</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/IVE_ELEVEN.jpg" alt="IVE_ELEVEN">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/upper_icon.png">
-                      <p class="chartNo_in">7</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>ELEVEN</h4>
-                      <span>IVE</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/sunmi.jpg" alt="선미-you can't st">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/upper_icon.png">
-                      <p class="chartNo_in">8</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>You can't sit with us</h4>
-                      <span>선미</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-              <!-- e::chart -->
+            <!-- visual02 -->
+            <div class="visual swiper-slide">
+              <img src="img/visual02.jpg">
+              <span>나를 위한 믹스</span>
+              <p>
+                <strong>WINTER 크리스마스 맞이</strong><br>
+                캐롤 플레이리스트 50
+              </p>
+              <a href="#">바로가기 ></a>
             </div>
-            <!-- s::chart 5~8위-->
+            <!-- visual02 -->
 
-            <!-- s::chart 9~12위-->
-            <div class="swiper-slide">
-              <ul class="clear chart">
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/yerin.jpg" alt="yerin-왜날">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/down_icon.png">
-                      <p class="chartNo_in">9</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>왜 날?</h4>
-                      <span>백예린</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/davichi.jpg" alt="다비치 - 첫사랑">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/down_icon.png">
-                      <p class="chartNo_in">10</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>첫사랑</h4>
-                      <span>DAVICHI</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/SWJA.jpg" alt="선우정아 동거">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/upper_icon.png">
-                      <p class="chartNo_in">11</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>동거</h4>
-                      <span>선우정아</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    <div class="img_box">
-                      <img src="img/bts.jpg" alt="BTS-BUTTER">
-                    </div>
-                    <div class="chartNo">
-                      <img class="chartNo_in" src="img/upper_icon.png">
-                      <p class="chartNo_in">12</p>
-                    </div>
-                    <div class="Sing_caption">
-                      <h4>Butter</h4>
-                      <span>BTS</span>
-                    </div>
-                    <div class="more hidden">
-                      <a href="#">원</a>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-              <!-- e::chart -->
+            <!-- visual03 -->
+            <div class="visual swiper-slide">
+              <img src="img/visual03.jpg">
+              <span>나를 위한 믹스</span>
+              <p>
+                <strong>신나는 음악이 듣고 싶을때</strong><br>
+                클럽뮤직 플레이리스트 50
+              </p>
+              <a href="#">바로가기 ></a>
             </div>
-            <!-- s::chart 9~12위-->
+            <!-- visual03 -->
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <!-- visual -->
+
+        <!--s::.con02 / 오후에 어울리는 음악-->
+        <div class="con02 swiper">
+          <h3>오후에 어울리는 음악</h3>
+          <ul class="clear swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/aespa01.jpg" alt="aespa-next level">
+                </div>
+                <div class="txt_box">
+                  <h4>Next level</h4>
+                  <p>aespa</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/MINO-TANG.jpg" alt="MINO - TANG♡">
+                </div>
+                <div class="txt_box">
+                  <h4>TANG♡</h4>
+                  <p>MINO</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img class="circle" src="img/AKMU.jpg" alt="즐겨듣는 아티스트 - AKMU">
+                </div>
+                <div class="txt_box">
+                  <h4>즐겨듣는 아티스트</h4>
+                  <p>AKMU</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/SWJA.jpg" alt="선우정아-동거">
+                </div>
+                <div class="txt_box">
+                  <h4>동거</h4>
+                  <p>선우정아</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/jessi.jpg" alt="jessi - cold blooded">
+                </div>
+                <div class="txt_box">
+                  <h4>Cold Blooded</h4>
+                  <p>Jessi</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/IU01.jpg" alt="아이유-라일락">
+                </div>
+                <div class="txt_box">
+                  <h4>라일락</h4>
+                  <p>아이유</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/Imyeongung.jpg" alt="임영웅-사랑은 늘 도망가">
+                </div>
+                <div class="txt_box">
+                  <h4>사랑은 늘 도망가</h4>
+                  <p>임영웅</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/IVE_ELEVEN.jpg" alt="IVE_ELEVEN">
+                </div>
+                <div class="txt_box">
+                  <h4>ELEVEN</h4>
+                  <p>IVE</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--e::.con02 / 오후에 어울리는 음악-->
+
+        <!--s::con03 / 인기차트-->
+        <div class="con03">
+          <div class="txt_box">
+            <h3>인기곡</h3>
+            <a href="#">모두 보기></a>
+          </div>
+
+          <div class="swiper list">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <!-- s::chart 1~4위-->
+                <ul class="chart">
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/jessi.jpg" alt="제시-cold blooded">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/upper_icon.png">
+                        <p class="chartNo_in">1</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>Cold Blooded</h4>
+                        <span>Jessi</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/aespa02.jpg" alt="에스파-savage">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/down_icon.png">
+                        <p class="chartNo_in">2</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>Savage</h4>
+                        <span>aespa</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/IU02.jpg" alt="아이유-strawberry moon">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/upper_icon.png">
+                        <p class="chartNo_in">3</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>Strawberry Moon</h4>
+                        <span>아이유</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/Imyeongung.jpg" alt="임영웅-사랑은 늘 도망가">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/down_icon.png">
+                        <p class="chartNo_in">4</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>사랑은 늘 도망가</h4>
+                        <span>임영웅</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <!-- e::chart -->
+              </div>
+
+              <!-- s::chart 5~8위-->
+              <div class="swiper-slide">
+                <ul class="clear chart">
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/MINO-TANG.jpg" alt="MINO-TANG">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/upper_icon.png">
+                        <p class="chartNo_in">5</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>TANG♡</h4>
+                        <span>MINO</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/aespa01.jpg" alt="에스파-NEXTLEVEL">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/down_icon.png">
+                        <p class="chartNo_in">6</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>NEXT LEVEL</h4>
+                        <span>aespa</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/IVE_ELEVEN.jpg" alt="IVE_ELEVEN">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/upper_icon.png">
+                        <p class="chartNo_in">7</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>ELEVEN</h4>
+                        <span>IVE</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/sunmi.jpg" alt="선미-you can't st">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/upper_icon.png">
+                        <p class="chartNo_in">8</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>You can't sit with us</h4>
+                        <span>선미</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <!-- e::chart -->
+              </div>
+              <!-- s::chart 5~8위-->
+
+              <!-- s::chart 9~12위-->
+              <div class="swiper-slide">
+                <ul class="clear chart">
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/yerin.jpg" alt="yerin-왜날">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/down_icon.png">
+                        <p class="chartNo_in">9</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>왜 날?</h4>
+                        <span>백예린</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/davichi.jpg" alt="다비치 - 첫사랑">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/down_icon.png">
+                        <p class="chartNo_in">10</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>첫사랑</h4>
+                        <span>DAVICHI</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/SWJA.jpg" alt="선우정아 동거">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/upper_icon.png">
+                        <p class="chartNo_in">11</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>동거</h4>
+                        <span>선우정아</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <div class="img_box">
+                        <img src="img/bts.jpg" alt="BTS-BUTTER">
+                      </div>
+                      <div class="chartNo">
+                        <img class="chartNo_in" src="img/upper_icon.png">
+                        <p class="chartNo_in">12</p>
+                      </div>
+                      <div class="Sing_caption">
+                        <h4>Butter</h4>
+                        <span>BTS</span>
+                      </div>
+                      <div class="more hidden">
+                        <a href="#">원</a>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <!-- e::chart -->
+              </div>
+              <!-- s::chart 9~12위-->
+            </div>
           </div>
         </div>
-      </div>
-      <!--e::con03 / 인기차트-->
+        <!--e::con03 / 인기차트-->
 
-      <!--s::.con04 / 새앨범-->
-      <div class="con02 swiper">
-        <h3>새 앨범</h3>
-        <ul class="clear swiper-wrapper">
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/aespa01.jpg" alt="aespa-next level">
-              </div>
-              <div class="txt_box">
-                <h4>Next level</h4>
-                <p>aespa</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/jessi.jpg" alt="jessi - cold blooded">
-              </div>
-              <div class="txt_box">
-                <h4>Cold Blooded</h4>
-                <p>Jessi</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/IU01.jpg" alt="아이유-라일락">
-              </div>
-              <div class="txt_box">
-                <h4>라일락</h4>
-                <p>아이유</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/davichi.jpg" alt="cold blooded - 제시">
-              </div>
-              <div class="txt_box">
-                <h4>나의 첫사랑</h4>
-                <p>다비치</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/IVE_ELEVEN.jpg" alt="IVE - ELEVEN">
-              </div>
-              <div class="txt_box">
-                <h4>ELEVEN</h4>
-                <p>IVE</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/MINO-TANG.jpg" alt="MINO - TANG♡">
-              </div>
-              <div class="txt_box">
-                <h4>TANG♡</h4>
-                <p>MINO</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img class="circle" src="img/AKMU.jpg" alt="즐겨듣는 아티스트 - AKMU">
-              </div>
-              <div class="txt_box">
-                <h4>즐겨듣는 아티스트</h4>
-                <p>AKMU</p>
-              </div>
-            </a>
-          </li>
-
-          <li class="swiper-slide">
-            <a href="#">
-              <div class="img_box">
-                <img src="img/SWJA.jpg" alt="선우정아-동거">
-              </div>
-              <div class="txt_box">
-                <h4>동거</h4>
-                <p>선우정아</p>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!--e::.con04 / 새앨범-->
-
-      <!--s::.con05/ 추천태그-->
-      <div class="con05">
-        <h3>추천태그</h3>
-        <div class="list_wrap swiper">
-          <ul class="clear swiper-wrapper">
-            <li class="on swiper-slide"><a href="#">발라드</a></li>
-            <li class="swiper-slide"><a href="#">영화ost</a></li>
-            <li class="swiper-slide"><a href="#">계절</a></li>
-            <li class="swiper-slide"><a href="#">댄스</a></li>
-            <li class="swiper-slide"><a href="#">해외 인기차트</a></li>
-            <li class="swiper-slide"><a href="#">2000년대</a></li>
-            <li class="swiper-slide"><a href="#">인디뮤직</a></li>
-            <li class="swiper-slide"><a href="#">외국힙합</a></li>
-            <li class="swiper-slide"><a href="#">댄스</a></li>
-            <li class="swiper-slide"><a href="#">뮤지컬</a></li>
-            <li class="swiper-slide"><a href="#">산책</a></li>
-            <li class="swiper-slide"><a href="#">신곡 100선</a></li>
-            <li class="swiper-slide"><a href="#">레트로</a></li>
-            <li class="swiper-slide"><a href="#">1990년대</a></li>
-          </ul>
-        </div>
-      </div>
-      <!--e::.con05/ 추천태그-->
-
-      <!-- s::con06 -->
-      <div class="con06">
-        <h3>추천 뮤직비디오</h3>
-        <!-- s::list_wrap -->
-        <div class="list_wrap swiper">
+        <!--s::.con04 / 새앨범-->
+        <div class="con02 swiper">
+          <h3>새 앨범</h3>
           <ul class="clear swiper-wrapper">
             <li class="swiper-slide">
-              <div>
-                <iframe class="video" src="https://www.youtube.com/embed/sqgxcCjD04s" title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-              </div>
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/aespa01.jpg" alt="aespa-next level">
+                </div>
+                <div class="txt_box">
+                  <h4>Next level</h4>
+                  <p>aespa</p>
+                </div>
+              </a>
             </li>
 
             <li class="swiper-slide">
-              <div>
-                <iframe class="video" src="https://www.youtube.com/embed/Xn1ZMrGWxjQ" title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-              </div>
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/jessi.jpg" alt="jessi - cold blooded">
+                </div>
+                <div class="txt_box">
+                  <h4>Cold Blooded</h4>
+                  <p>Jessi</p>
+                </div>
+              </a>
             </li>
 
             <li class="swiper-slide">
-              <div>
-                <iframe class="video" src="https://www.youtube.com/embed/rAC7km3_EsA" title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-              </div>
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/IU01.jpg" alt="아이유-라일락">
+                </div>
+                <div class="txt_box">
+                  <h4>라일락</h4>
+                  <p>아이유</p>
+                </div>
+              </a>
             </li>
 
             <li class="swiper-slide">
-              <div>
-                <iframe class="video" src="https://www.youtube.com/embed/--FmExEAsM8" title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-              </div>
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/davichi.jpg" alt="cold blooded - 제시">
+                </div>
+                <div class="txt_box">
+                  <h4>나의 첫사랑</h4>
+                  <p>다비치</p>
+                </div>
+              </a>
             </li>
 
             <li class="swiper-slide">
-              <div>
-                <iframe class="video" src="https://www.youtube.com/embed/VAEEblk-qDU" title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-              </div>
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/IVE_ELEVEN.jpg" alt="IVE - ELEVEN">
+                </div>
+                <div class="txt_box">
+                  <h4>ELEVEN</h4>
+                  <p>IVE</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/MINO-TANG.jpg" alt="MINO - TANG♡">
+                </div>
+                <div class="txt_box">
+                  <h4>TANG♡</h4>
+                  <p>MINO</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img class="circle" src="img/AKMU.jpg" alt="즐겨듣는 아티스트 - AKMU">
+                </div>
+                <div class="txt_box">
+                  <h4>즐겨듣는 아티스트</h4>
+                  <p>AKMU</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="img_box">
+                  <img src="img/SWJA.jpg" alt="선우정아-동거">
+                </div>
+                <div class="txt_box">
+                  <h4>동거</h4>
+                  <p>선우정아</p>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
-        <!-- e::list_wrap -->
-      </div>
-      <!-- e::con06 -->
-    </div>
-    <!--e::#container-->
+        <!--e::.con04 / 새앨범-->
 
-    <footer>
-      <!-- s::player -->
-      <div class="player">
-        <div class="img_box">
-          <img src="img/sunmi.jpg" alt="선미 - you can't sit with us">
+        <!--s::.con05/ 추천태그-->
+        <div class="con05">
+          <h3>추천태그</h3>
+          <div class="list_wrap swiper">
+            <ul class="clear swiper-wrapper">
+              <li class="on swiper-slide"><a href="#">발라드</a></li>
+              <li class="swiper-slide"><a href="#">영화ost</a></li>
+              <li class="swiper-slide"><a href="#">계절</a></li>
+              <li class="swiper-slide"><a href="#">댄스</a></li>
+              <li class="swiper-slide"><a href="#">해외 인기차트</a></li>
+              <li class="swiper-slide"><a href="#">2000년대</a></li>
+              <li class="swiper-slide"><a href="#">인디뮤직</a></li>
+              <li class="swiper-slide"><a href="#">외국힙합</a></li>
+              <li class="swiper-slide"><a href="#">댄스</a></li>
+              <li class="swiper-slide"><a href="#">뮤지컬</a></li>
+              <li class="swiper-slide"><a href="#">산책</a></li>
+              <li class="swiper-slide"><a href="#">신곡 100선</a></li>
+              <li class="swiper-slide"><a href="#">레트로</a></li>
+              <li class="swiper-slide"><a href="#">1990년대</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="txt_box">
-          <h5>you can't sit with us</h5>
-          <p>선미</p>
+        <!--e::.con05/ 추천태그-->
+
+        <!-- s::con06 -->
+        <div class="con06">
+          <h3>추천 뮤직비디오</h3>
+          <!-- s::list_wrap -->
+          <div class="list_wrap swiper">
+            <ul class="clear swiper-wrapper">
+              <li class="swiper-slide">
+                <div>
+                  <iframe class="video" src="https://www.youtube.com/embed/sqgxcCjD04s" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div>
+                  <iframe class="video" src="https://www.youtube.com/embed/Xn1ZMrGWxjQ" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div>
+                  <iframe class="video" src="https://www.youtube.com/embed/rAC7km3_EsA" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div>
+                  <iframe class="video" src="https://www.youtube.com/embed/--FmExEAsM8" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div>
+                  <iframe class="video" src="https://www.youtube.com/embed/VAEEblk-qDU" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- e::list_wrap -->
         </div>
-        <div class="btn_box">
-          <!-- <button type="button" class="btn01"><a class="btn01" href="#">재생버튼</a></button>
+        <!-- e::con06 -->
+      </div>
+      <!--e::#container-->
+
+      <footer>
+        <!-- s::player -->
+        <div class="player">
+          <div class="img_box">
+            <img src="img/sunmi.jpg" alt="선미 - you can't sit with us">
+          </div>
+          <div class="txt_box">
+            <h5>you can't sit with us</h5>
+            <p>선미</p>
+          </div>
+          <div class="btn_box">
+            <!-- <button type="button" class="btn01"><a class="btn01" href="#">재생버튼</a></button>
         <button type="button" class="btn02"><a class="btn02" href="#">멈춤버튼</a></button> -->
-          <a class="btn01 hidden" href="#">재생버튼</a>
-          <a class="btn02 hidden" href="#">멈춤버튼</a>
+            <a class="btn01 hidden" href="#">재생버튼</a>
+            <a class="btn02 hidden" href="#">멈춤버튼</a>
+          </div>
+        </div>
+        <!-- e::player -->
+        <!--s::under-->
+        <div class="under">
+          <ul>
+            <li>
+              <a href="#">
+                <p class="img icon01 hidden">이미지</p>
+                <p class="txt">홈</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <p class="img icon02 hidden">이미지</p>
+                <p class="txt">찜</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <p class="img icon03 hidden">이미지</p>
+                <p class="txt">둘러보기</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <p class="img icon04 hidden">이미지</p>
+                <p class="txt">보관함</p>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+        <!--e::under-->
+      </footer>
+    </div>
+    <!--e::#wrap-->
+
+    <!-- layer_pop -->
+    <div class="layer_bg">
+      <div class="layer_pop">
+        <h3>참고사항</h3>
+        <p>
+          본 포트폴리오는 모바일 사이즈에 적합한 웹사이트입니다.<br>
+          <strong>모바일 사이즈 변경</strong> 버튼을 누르시면 모바일 사이트에 맞는 사이즈로 변경됩니다.
+          혹은 <strong>개발자모드(f12)</strong>로 들어가셔서 iPhon6/7/8 사이즈로 변경하시길 바랍니다.
+        </p>
+        <div class="btn_wrap">
+          <a href="#" class="resize on">모바일 사이즈 변경</a>
+          <a href="#" class="close">닫기</a>
         </div>
       </div>
-      <!-- e::player -->
-      <!--s::under-->
-      <div class="under">
-        <ul>
-          <li>
-            <a href="#">
-              <p class="img icon01 hidden">이미지</p>
-              <p class="txt">홈</p>
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              <p class="img icon02 hidden">이미지</p>
-              <p class="txt">찜</p>
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              <p class="img icon03 hidden">이미지</p>
-              <p class="txt">둘러보기</p>
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              <p class="img icon04 hidden">이미지</p>
-              <p class="txt">보관함</p>
-            </a>
-          </li>
-
-        </ul>
-      </div>
-      <!--e::under-->
-    </footer>
-  </div>
-  <!--e::#wrap-->
-
-  <!-- layer_pop -->
-  <div class="layer_bg">
-    <div class="layer_pop">
-      <h3>참고사항</h3>
-      <p>
-        본 포트폴리오는 모바일 사이즈에 적합한 웹사이트입니다.<br>
-        <strong>모바일 사이즈 변경</strong> 버튼을 누르시면 모바일 사이트에 맞는 사이즈로 변경됩니다.
-        혹은 <strong>개발자모드(f12)</strong>로 들어가셔서 iPhon6/7/8 사이즈로 변경하시길 바랍니다.
-      </p>
-      <div class="btn_wrap">
-        <a href="#" class="resize on">모바일 사이즈 변경</a>
-        <a href="#" class="close">닫기</a>
-      </div>
     </div>
-  </div>
   </form>
 </body>
+
 </html>

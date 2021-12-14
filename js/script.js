@@ -87,4 +87,15 @@ $(document).ready(function () {
     e.preventDefault();
     $(".search_box").toggle();
   });
+
+  // nav 등장
+  $(".gnb_wrap .menu").click(function (e) { 
+    e.preventDefault();
+    $("nav").stop().slideDown(1000);    
+  });
+  
+  $("nav .close").click(function (e) { 
+    e.preventDefault();
+    $("nav").stop().slideUp(1000);        
+  });
 });
