@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var swiper = new Swiper(".visualWrap", {
+  var swiper01 = new Swiper(".visualWrap", {
     scrollbar: {
       el: ".swiper-scrollbar",
       hide: true,
@@ -10,7 +10,11 @@ $(document).ready(function () {
     }
   });
 
-  var swiper = new Swiper(".list", {});
+  var swiper02 = new Swiper(".list", {
+    slidesPerView: 1,
+    centeredSlides: false,
+    spaceBetween: 50,
+  });
 
   // headr btn 이벤트
   $("header .tag_button li").click(function (e) { 

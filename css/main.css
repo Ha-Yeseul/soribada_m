@@ -1,18 +1,38 @@
 @charset "utf-8";
+body{
+  background-color: #fff;
+}
+
+.con01{
+  background-color: #20252b;
+}
 #wrap{
   min-width: 350px;
+  max-width: 550px;
+  margin: 0 auto;
   overflow: hidden;
+  position: relative;
+  background-color: #20252b;
 }
 header{
   position: fixed;
   width: 100%;
+  min-width: 350px;
+  max-width: 550px;
   z-index: 99;
+  /* padding: 20px 0; */
 }
 header .gnb{
   height: 50px;
   width: 100%;
+  min-width: 350px;
+  max-width: 550px;
   background-color: #313842;
   padding: 0 25px;
+}
+
+header .gnb h1{
+  display: inline-block;
 }
 
 header .gnb a.logo{
@@ -20,22 +40,27 @@ header .gnb a.logo{
   height: calc(35px / 2);
   display: block;
   background: url(../img/logo.png) no-repeat top center / contain;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 25px;
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+header .gnb .gnb_wrap{
+  float: right;
+  display: flex;
 }
 
 header .gnb a.search{
   width: 35px;
   height: 50px;
   display: block;
-  position: absolute;
+  /* position: absolute; */
   background: url(../img/search.png) no-repeat center;
   background-size: calc(35px/2) calc(35px/2);
-  top: 50%;
+  /* top: 50%;
   right: 50px;
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
   /* background-color: blue; */
 }
 
@@ -43,21 +68,23 @@ header .gnb a.menu{
   width: 35px;
   height: 50px;
   display: block;
-  position: absolute;
+  /* position: absolute; */
   background: url(../img/menu.png) no-repeat center;
   background-size: calc(35px/2) calc(27px/2);
-  /* background-color: red; */
+  /* background-color: red;
   top: 50%;
   right: 15px;
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
 }
 
 header .tag_button{
   width: 100%;
+  min-width: 350px;
+  max-width: 550px;
   height: 50px;
-  position:fixed;
+  /* position:fixed;
   top: 50px;
-  left: 0;
+  left: 0; */
   /* background-color: blue; */
   padding: 10px 25px;
   white-space: nowrap;
@@ -325,6 +352,11 @@ header .tag_button li a{
   bottom: 10px;
   right: 25px;
 }
+
+.con03 .swiper-slide{
+  /* background-color: yellow; */
+  width: 50%;
+}
 .con03 .chart li{
   margin: 10px 0;
   width: 325px;
@@ -405,7 +437,6 @@ header .tag_button li a{
 .con05 ul{
   margin: 10px 0;
   width: 700px;
-  
 }
 
 .con05 .list_wrap::-webkit-scrollbar{
@@ -487,8 +518,11 @@ header .tag_button li a{
 
 footer{
   width: 100%;
+  min-width: 350px;
+  max-width: 550px;
+  margin: 0 auto;
   position: fixed;
-  left: 0;
+  /* left: 0; */
   bottom: 0;
   z-index: 99999;
 }
@@ -588,13 +622,14 @@ footer .under{
   width: 100%;
   height: 60px;
   background-color: #313842;
-  padding: 0 30px;
+  padding: 0 30px; 
 }
 
-footer .under li{
-  float: left;
-  margin-right: 35px;
+footer .under ul{
+  display: flex;
+  justify-content: space-around;
 }
+
 
 footer .under li:last-child{
   margin: 0;
