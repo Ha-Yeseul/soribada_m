@@ -11,11 +11,37 @@ $(document).ready(function () {
   });
 
   var swiper02 = new Swiper(".list", {
-    slidesPerView: 1,
+    slidesPerView: "auto",
     centeredSlides: false,
-    spaceBetween: 50,
+    spaceBetween: 30,
   });
 
+  // tag_button
+  var swiper03 = new Swiper(".tag_button", {
+    slidesPerView: "auto"
+  });
+
+  // con01
+  var swiper04 = new Swiper(".con01", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    loopAdditionalSlides : 1
+  });
+
+  // con02
+  var swiper04 = new Swiper(".con02", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    loopAdditionalSlides : 1
+  });
+
+  // list_wrap
+  var swiper05 = new Swiper(".list_wrap", {
+    slidesPerView: "auto",
+    spaceBetween: 10,
+    loopAdditionalSlides : 1
+  });
+ 
   // headr btn 이벤트
   $("header .tag_button li").click(function (e) { 
     e.preventDefault();
