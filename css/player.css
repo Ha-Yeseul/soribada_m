@@ -70,7 +70,7 @@ header.playerHd .inner i {
   background-color: #313842;
 }
 
-.playerBox .img_boxEvent a:hover {
+.playerBox .img_boxEvent .ahover {
   background-color: #736EFE;
 }
 

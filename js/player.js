@@ -1,16 +1,30 @@
 $(document).ready(function () {
   // img event
-  
-  // $(".playerBox .img_box").mouseover(function () { 
-  //   console.log("진행중");
-  //   $(".playerBox .img_boxEvent").removeClass("hide");
-  // });
 
-  // $(".playerBox .img_box").mouseout(function () { 
-  //   console.log("진행중");
-  //   $(".playerBox .img_boxEvent").addClass("hide");
-  // });
+  $(".inner").mouseover(function () {
+
+    $(".img_boxEvent").removeClass("hide");
+
+  });
+  $(".inner").mouseout(function () {
+
+    $(".img_boxEvent").addClass("hide");
+
+  });
+
+  $(".img_boxEvent a").mouseover(function () {
+    
+    $(this).addClass("ahover");
+    
+
+
+  });
+  $(".img_boxEvent a").mouseout(function () {
+    
+    $(this).removeClass("ahover");
+    
   
+  });
   // heart event
   $(".tit_box .love").click(function (e) {
     e.preventDefault();
@@ -34,11 +48,11 @@ $(document).ready(function () {
   var seekbar = new Seekbar.Seekbar({
     renderTo: ".seekBar",
     negativeColor: "#736EFE",
-    positiveColor :'#ccc',
-    thumbColor :'#736EFE',
+    positiveColor: '#ccc',
+    thumbColor: '#736EFE',
     barSize: 5,
     needleSize: 0.3,
-    thumbSize : 0,
+    thumbSize: 0,
     value: 5
   });
   // seekBar
