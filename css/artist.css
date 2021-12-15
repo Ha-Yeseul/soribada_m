@@ -123,8 +123,9 @@
 
 .video li.swiper-slide{
   display: inline-block;
-  width: 60%;
+  width: 70%;
   height: auto;
+  padding: 30px 0;
 }
 
 .video li.swiper-slide iframe{
