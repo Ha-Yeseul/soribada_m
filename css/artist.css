@@ -126,6 +126,7 @@
   /* background-color: yellow; */
   width: 300px;
   height: auto;
+  display: inline-block;
 
 }
 
@@ -134,7 +135,11 @@
   width: 100%; 
   background-color: yellow;
   border: none;
-  padding: 50px 0;
+  padding: 20px 0;
+}
+
+.video li.swiper-slide div iframe{
+  display: inline-block;
 }
 
 .video .inner.swiper{
