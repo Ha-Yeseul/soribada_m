@@ -2,14 +2,14 @@ $(document).ready(function () {
   // 앨범목록 스와이퍼
   var swiper07 = new Swiper(".album .inner", {
     slidesPerView: "auto",
-    spaceBetween: 30,
+    spaceBetween: 40,
     loopAdditionalSlides: 1
   });
 
   //video 스와이퍼
   var swiper08 = new Swiper(".video .inner", {
     slidesPerView: "auto",
-    spaceBetween: 30,
+    spaceBetween: 50,
     loopAdditionalSlides: 1
   });
 
