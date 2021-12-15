@@ -122,10 +122,11 @@
 /* video */
 
 .video li.swiper-slide{
-  display: inline-block;
-  width: 70%;
+  padding: 20px 0;
+  /* background-color: yellow; */
+  width: 300px;
   height: auto;
-  padding: 30px 0;
+
 }
 
 .video li.swiper-slide iframe{
