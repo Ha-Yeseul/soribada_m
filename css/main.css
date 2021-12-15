@@ -6,6 +6,7 @@ body{
 #wrap{
   min-width: 350px;
   max-width: 550px;
+  height: 100vh;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
