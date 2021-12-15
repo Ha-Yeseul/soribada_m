@@ -17,6 +17,8 @@
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/seekbar.js"></script>
 </head>
 
 <body>
@@ -61,19 +63,45 @@
               <h2>You can't stop with us</h2>
               <p>선미</p>
             </div>
-            <a href="#" class="love">
+            <a href="#" class="love off">
               <i class="far fa-heart"></i>
+            </a>
+            <a href="#" class="love on">
+              <i class="fas fa-heart"></i>              
             </a>
           </div>
         </div>
         <!-- txt_box -->
       </section>
 
-      <section class="playerPlug">
-        <div class="inner">
-          
+      <!-- player seekbar -->
+      <section class="seekbarWrap">
+        <div class="inner">        
+          <div class="seekBar"></div>
         </div>
       </section>
+      <!-- player plugin -->
+
+      <!-- section btn -->
+      <section class="btnWrap">
+        <div class="inner">
+          <a href="#" class="shuffle">
+            <i class="fas fa-random"></i>
+          </a>
+          <a href="#" class="prev">
+            <i class="fas fa-step-backward"></i>
+          </a>
+          <a href="#" class="play_btn">
+            <i class="fas fa-play"></i>
+          </a>
+          <a href="#" class="next">
+            <i class="fas fa-step-forward"></i>
+          </a>
+          <a href="#" class="random">
+            <i class="fas fa-redo-alt"></i>
+          </a>
+        </div>
+      </section>   
 
     </div>
   </form>
