@@ -50,8 +50,8 @@
   font-size: 16px;
 }
 
-.artistWrap .txt_box p:hover i{
-  color: salmon;
+.artistWrap .txt_box i.select{
+  color: #fa8072;
 }
 /* artList */
 .ArtList, .album .inner.swiper, .video .inner.swiper{
@@ -127,7 +127,6 @@
   width: 300px;
   height: auto;
   display: inline-block;
-
 }
 
 .video li.swiper-slide div{
