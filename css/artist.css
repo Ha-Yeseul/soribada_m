@@ -1,0 +1,139 @@
+@charset "utf-8";
+.artistHd{
+  padding: 20px 0;
+}
+
+.artistHd i{
+  font-size: 20px;
+}
+
+.bgBlack{
+  background-color: #000;
+}
+.artistWrap{
+  width: 100%;
+  height: 50vh; 
+  overflow: hidden;
+  background-image: 
+  linear-gradient(
+            to bottom,
+            rgba(20, 20, 20, 0) 10%,        
+            rgba(20, 20, 20, 0.3) 50%,
+            rgba(20, 20, 20, 0.8) 75%,
+            rgba(20, 20, 20, 1) 100%
+          ),
+  url(../img/yerin_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.artistWrap .inner{ 
+  height: 100%;
+  /* background-color: red; */
+}
+
+.artistWrap .txt_box{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  text-align: center;
+}
+
+.artistWrap .txt_box h2{
+  font-size: 40px;
+  padding: 20px;
+}
+
+.artistWrap .txt_box p{
+  font-size: 16px;
+}
+
+.artistWrap .txt_box p:hover i{
+  color: salmon;
+}
+/* artList */
+.ArtList, .album .inner.swiper, .video .inner.swiper{
+  padding: 40px 0;
+}
+.ArtList h2, .album h2, .video h2{
+  display: inline-block;
+  font-size: 20px; 
+  padding-bottom: 30px;
+}
+
+.ArtList span, .album span, .video span{
+  float: right;
+}
+
+.ArtList span:hover, .album span:hover, .video span:hover{
+  text-decoration: underline;
+}
+
+.ArtList li{
+  padding: 5px 0 ;
+}
+
+.ArtList li h4, .album li h4{
+  padding-bottom: 5px;
+  overflow: hidden;
+
+}
+
+.ArtList li>a{
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.ArtList li a img{
+  width: 70px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.ArtList .more{
+  position: absolute;
+  right: 10px;
+}
+
+.ArtList li a:hover{
+  background-color: #555;
+}
+
+/* ablum */
+.album img{
+  width: 200px;
+  height: auto;
+}
+
+.album li h4{
+  font-size: 18px;
+  padding: 10px 0 5px;
+}
+
+.album li.swiper-slide{
+  display: inline-block;
+  margin-right: 30px;
+  width: 200px;
+}
+
+/* video */
+
+.video li.swiper-slide{
+  display: inline-block;
+  margin-right: 30px;
+  width: auto;
+  height: 200px;
+}
+
+.video li.swiper-slide iframe{
+  height: 100%;
+  width: 100%; 
+  border: none;
+}
+
+.video .inner.swiper{
+  padding-bottom: 150px;
+}

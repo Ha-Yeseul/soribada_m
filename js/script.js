@@ -35,8 +35,16 @@ $(document).ready(function () {
     loopAdditionalSlides: 1
   });
 
+  //  con03
+  var swiper05 = new Swiper(".list", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    loopAdditionalSlides: 1
+  });
+
+
   // list_wrap
-  var swiper05 = new Swiper(".list_wrap", {
+  var swiper06 = new Swiper(".list_wrap", {
     slidesPerView: "auto",
     spaceBetween: 10,
     loopAdditionalSlides: 1
@@ -91,7 +99,7 @@ $(document).ready(function () {
   // nav 등장
   $(".gnb_wrap .menu").click(function (e) { 
     e.preventDefault();
-    $("nav").stop().slideDown(1000);    
+    $("nav").stop().slideDown();    
   });
   
   $("nav .close").click(function (e) { 

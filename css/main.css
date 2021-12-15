@@ -177,7 +177,6 @@ nav{
   padding: 30px;
   position: fixed;
   display: none;
-
 }
 
 nav .Xbox{
@@ -539,9 +538,10 @@ nav .listTxt{
   right: 25px;
 }
 
-.con03 .swiper-slide{
+.con03 .list .swiper-slide{
   /* background-color: yellow; */
-  width: 85%;
+  width: 80%;
+  /* margin-right: 10px; */
 }
 .con03 .chart li{
   margin: 10px 0;
@@ -599,7 +599,7 @@ nav .listTxt{
   width: 30px;
   height: 30px;
   /* background-color: blue; */
-  float: left;
+  float: right;
   background-image: url(../img/more.png);
   background-repeat: no-repeat;
   background-position: center;
