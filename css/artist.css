@@ -133,9 +133,9 @@
 .video li.swiper-slide div{
   height: 100%;
   width: 100%; 
-  background-color: yellow;
+  /* background-color: yellow; */
   border: none;
-  padding: 20px 0;
+  padding: 50px 10px;
 }
 
 .video li.swiper-slide div iframe{
