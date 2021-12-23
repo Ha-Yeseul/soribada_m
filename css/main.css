@@ -17,6 +17,7 @@ header{
   min-width: 350px;
   max-width: 550px;
   z-index: 99;
+  top: 0;
   /* padding: 20px 0; */
 }
 header .gnb{

@@ -14,7 +14,7 @@
   width: 100%;
   height: 50vh; 
   overflow: hidden;
-  background-image: 
+  /* background-image: 
   linear-gradient(
             to bottom,
             rgba(20, 20, 20, 0) 10%,        
@@ -22,7 +22,7 @@
             rgba(20, 20, 20, 0.8) 75%,
             rgba(20, 20, 20, 1) 100%
           ),
-  url(../img/yerin_bg.jpg);
+  url(../img/yerin_bg.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

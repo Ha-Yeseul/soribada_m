@@ -19,6 +19,7 @@
   <script src="js/script.js"></script>
   <script src="js/player.js"></script>
   <script src="js/seekbar.js"></script>
+  <script src="js/playerData.js"></script>
 </head>
 
 <body>
@@ -28,7 +29,7 @@
           <a href="index.html" class="back">
             <i class="fas fa-arrow-left"></i>
           </a>
-          <h2>now player</h2>
+          <h2>Now player</h2>
           <a href="#" class="more">
             <i class="fas fa-ellipsis-v"></i>
           </a>
@@ -39,7 +40,7 @@
           <!-- img -->
           <div class="img">
             <div href="#" class="img_box">
-              <img src="img/sunmi.jpg" alt="선미 - you can't stop with us">
+              <img id="img" src="" alt="">
             </div>
             <div class="img_boxEvent hide">
               <a href="#" class="share">
@@ -59,8 +60,8 @@
         <div class="tit_box">
           <div class="inner">
             <div class="txt">
-              <h2>You can't stop with us</h2>
-              <p>선미</p>
+              <h2 id="title"></h2>
+              <p id="singer"></p>
             </div>
             <a href="#" class="love off">
               <i class="far fa-heart"></i>
@@ -107,7 +108,7 @@
         <div class="under">
           <ul>
             <li>
-              <a href="#">
+              <a href="index.html">
                 <p class="img icon01 hidden">이미지</p>
                 <p class="txt">홈</p>
               </a>

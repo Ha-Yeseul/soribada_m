@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Soribada</title>
+  <h4>Soribada</h4>
   <!-- style -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/import.css">
@@ -18,6 +18,7 @@
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/mainData.js"></script>
 </head>
 
 <body>
@@ -30,11 +31,11 @@
           <h1><a href="#" class="logo hidden">로고</a></h1>
           <div class="gnb_wrap">
             <input type="text" class="search_box" placeholder="검색어를 입력해주세요">
-            <a href="#" class="search hidden">검색</a>
-            <a href="#" class="voice hidden">마이크
+            <a href="#search" class="search hidden">검색</a>
+            <a href="#voice" class="voice hidden">마이크
               <i class="fas fa-microphone"></i>
             </a>
-            <a href="#" class="menu hidden">메뉴</a>
+            <a href="#menu" class="menu hidden">메뉴</a>
           </div>
         </div>
         <!-- e::gnb -->
@@ -109,108 +110,14 @@
         <!-- e::nav -->
       </header>
 
-
+    
+      
       <!--s::#container-->
       <div id="container">
         <!--s::.con01 / 즐겨듣는 음악-->
         <div class="con01 swiper">
           <h3>즐겨듣는 음악</h3>
-          <ul class="clear swiper-wrapper">
-            <li class="swiper-slide">
-              <a href="play.html">
-                <div class="img_box">
-                  <img src="img/sunmi.jpg" alt="선미-you can't sit with us">
-                </div>
-                <div class="txt_box">
-                  <h4>You can't sit with us</h4>
-                  <p>선미</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="artist.html">
-                <div class="img_box">
-                  <img class="circle" src="img/yerin.jpg" alt="즐겨듣는 아티스트 - 백예린">
-                </div>
-                <div class="txt_box">
-                  <h4>즐겨듣는 아티스트</h4>
-                  <p>백예린</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/bts.jpg" alt="butter - 방탄소년단">
-                </div>
-                <div class="txt_box">
-                  <h4>Butter</h4>
-                  <p>방탄소년단</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/jessi.jpg" alt="cold blooded - 제시">
-                </div>
-                <div class="txt_box">
-                  <h4>Cold Blooded</h4>
-                  <p>Jessi</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/IVE_ELEVEN.jpg" alt="IVE - ELEVEN">
-                </div>
-                <div class="txt_box">
-                  <h4>ELEVEN</h4>
-                  <p>IVE</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/MINO-TANG.jpg" alt="MINO - TANG♡">
-                </div>
-                <div class="txt_box">
-                  <h4>TANG♡</h4>
-                  <p>MINO</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img class="circle" src="img/AKMU.jpg" alt="즐겨듣는 아티스트 - AKMU">
-                </div>
-                <div class="txt_box">
-                  <h4>즐겨듣는 아티스트</h4>
-                  <p>AKMU</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/SWJA.jpg" alt="선우정아-동거">
-                </div>
-                <div class="txt_box">
-                  <h4>동거</h4>
-                  <p>선우정아</p>
-                </div>
-              </a>
-            </li>
+          <ul id = "favList" class="clear swiper-wrapper">
 
           </ul>
         </div>
@@ -259,104 +166,10 @@
         <!-- visual -->
 
         <!--s::.con02 / 오후에 어울리는 음악-->
-        <div class="con02 swiper">
+        <div id="afternoon" class="con02 swiper">
           <h3>오후에 어울리는 음악</h3>
           <ul class="clear swiper-wrapper">
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/aespa01.jpg" alt="aespa-next level">
-                </div>
-                <div class="txt_box">
-                  <h4>Next level</h4>
-                  <p>aespa</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/MINO-TANG.jpg" alt="MINO - TANG♡">
-                </div>
-                <div class="txt_box">
-                  <h4>TANG♡</h4>
-                  <p>MINO</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img class="circle" src="img/AKMU.jpg" alt="즐겨듣는 아티스트 - AKMU">
-                </div>
-                <div class="txt_box">
-                  <h4>즐겨듣는 아티스트</h4>
-                  <p>AKMU</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/SWJA.jpg" alt="선우정아-동거">
-                </div>
-                <div class="txt_box">
-                  <h4>동거</h4>
-                  <p>선우정아</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/jessi.jpg" alt="jessi - cold blooded">
-                </div>
-                <div class="txt_box">
-                  <h4>Cold Blooded</h4>
-                  <p>Jessi</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/IU01.jpg" alt="아이유-라일락">
-                </div>
-                <div class="txt_box">
-                  <h4>라일락</h4>
-                  <p>아이유</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/Imyeongung.jpg" alt="임영웅-사랑은 늘 도망가">
-                </div>
-                <div class="txt_box">
-                  <h4>사랑은 늘 도망가</h4>
-                  <p>임영웅</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/IVE_ELEVEN.jpg" alt="IVE_ELEVEN">
-                </div>
-                <div class="txt_box">
-                  <h4>ELEVEN</h4>
-                  <p>IVE</p>
-                </div>
-              </a>
-            </li>
+           
           </ul>
         </div>
         <!--e::.con02 / 오후에 어울리는 음악-->
@@ -422,7 +235,7 @@
                         <h4>Strawberry Moon</h4>
                         <span>아이유</span>
                       </div>
-                      <div class="more">                     
+                      <div class="more">
                       </div>
                     </a>
                   </li>
@@ -440,7 +253,7 @@
                         <h4>사랑은 늘 도망가</h4>
                         <span>임영웅</span>
                       </div>
-                      <div class="more">                       
+                      <div class="more">
                       </div>
                     </a>
                   </li>
@@ -464,7 +277,7 @@
                         <h4>TANG♡</h4>
                         <span>MINO</span>
                       </div>
-                      <div class="more">                        
+                      <div class="more">
                       </div>
                     </a>
                   </li>
@@ -482,7 +295,7 @@
                         <h4>NEXT LEVEL</h4>
                         <span>aespa</span>
                       </div>
-                      <div class="more">                   
+                      <div class="more">
                       </div>
                     </a>
                   </li>
@@ -500,7 +313,7 @@
                         <h4>ELEVEN</h4>
                         <span>IVE</span>
                       </div>
-                      <div class="more">                  
+                      <div class="more">
                       </div>
                     </a>
                   </li>
@@ -515,10 +328,10 @@
                         <p class="chartNo_in">8</p>
                       </div>
                       <div class="Sing_caption">
-                        <h4>You can't sit with us</h4>
+                        <h4> </h4>
                         <span>선미</span>
                       </div>
-                      <div class="more">                      
+                      <div class="more">
                       </div>
                     </a>
                   </li>
@@ -543,7 +356,7 @@
                         <h4>왜 날?</h4>
                         <span>백예린</span>
                       </div>
-                      <div class="more">                   
+                      <div class="more">
                       </div>
                     </a>
                   </li>
@@ -561,7 +374,7 @@
                         <h4>첫사랑</h4>
                         <span>DAVICHI</span>
                       </div>
-                      <div class="more">                     
+                      <div class="more">
                       </div>
                     </a>
                   </li>
@@ -579,7 +392,7 @@
                         <h4>동거</h4>
                         <span>선우정아</span>
                       </div>
-                      <div class="more">                     
+                      <div class="more">
                       </div>
                     </a>
                   </li>
@@ -597,7 +410,7 @@
                         <h4>Butter</h4>
                         <span>BTS</span>
                       </div>
-                      <div class="more">                
+                      <div class="more">
                       </div>
                     </a>
                   </li>
@@ -613,102 +426,8 @@
         <!--s::.con04 / 새앨범-->
         <div class="con02 swiper">
           <h3>새 앨범</h3>
-          <ul class="clear swiper-wrapper">
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/aespa01.jpg" alt="aespa-next level">
-                </div>
-                <div class="txt_box">
-                  <h4>Next level</h4>
-                  <p>aespa</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/jessi.jpg" alt="jessi - cold blooded">
-                </div>
-                <div class="txt_box">
-                  <h4>Cold Blooded</h4>
-                  <p>Jessi</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/IU01.jpg" alt="아이유-라일락">
-                </div>
-                <div class="txt_box">
-                  <h4>라일락</h4>
-                  <p>아이유</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/davichi.jpg" alt="cold blooded - 제시">
-                </div>
-                <div class="txt_box">
-                  <h4>나의 첫사랑</h4>
-                  <p>다비치</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/IVE_ELEVEN.jpg" alt="IVE - ELEVEN">
-                </div>
-                <div class="txt_box">
-                  <h4>ELEVEN</h4>
-                  <p>IVE</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/MINO-TANG.jpg" alt="MINO - TANG♡">
-                </div>
-                <div class="txt_box">
-                  <h4>TANG♡</h4>
-                  <p>MINO</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img class="circle" src="img/AKMU.jpg" alt="즐겨듣는 아티스트 - AKMU">
-                </div>
-                <div class="txt_box">
-                  <h4>즐겨듣는 아티스트</h4>
-                  <p>AKMU</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="swiper-slide">
-              <a href="#">
-                <div class="img_box">
-                  <img src="img/SWJA.jpg" alt="선우정아-동거">
-                </div>
-                <div class="txt_box">
-                  <h4>동거</h4>
-                  <p>선우정아</p>
-                </div>
-              </a>
-            </li>
+          <ul id="newAlbum" class="clear swiper-wrapper">
+            
           </ul>
         </div>
         <!--e::.con04 / 새앨범-->
@@ -745,7 +464,7 @@
             <ul class="clear swiper-wrapper">
               <li class="swiper-slide">
                 <div>
-                  <iframe class="video" src="https://www.youtube.com/embed/sqgxcCjD04s" title="YouTube video player"
+                  <iframe class="video" src="https://www.youtube.com/embed/sqgxcCjD04s" h4="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -754,7 +473,7 @@
 
               <li class="swiper-slide">
                 <div>
-                  <iframe class="video" src="https://www.youtube.com/embed/Xn1ZMrGWxjQ" title="YouTube video player"
+                  <iframe class="video" src="https://www.youtube.com/embed/Xn1ZMrGWxjQ" h4="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -763,7 +482,7 @@
 
               <li class="swiper-slide">
                 <div>
-                  <iframe class="video" src="https://www.youtube.com/embed/rAC7km3_EsA" title="YouTube video player"
+                  <iframe class="video" src="https://www.youtube.com/embed/rAC7km3_EsA" h4="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -772,7 +491,7 @@
 
               <li class="swiper-slide">
                 <div>
-                  <iframe class="video" src="https://www.youtube.com/embed/--FmExEAsM8" title="YouTube video player"
+                  <iframe class="video" src="https://www.youtube.com/embed/--FmExEAsM8" h4="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -781,7 +500,7 @@
 
               <li class="swiper-slide">
                 <div>
-                  <iframe class="video" src="https://www.youtube.com/embed/VAEEblk-qDU" title="YouTube video player"
+                  <iframe class="video" src="https://www.youtube.com/embed/VAEEblk-qDU" h4="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -799,16 +518,16 @@
         <!-- s::player -->
         <div class="player">
           <div class="img_box">
-            <img src="img/sunmi.jpg" alt="선미 - you can't sit with us">
+            <img src="img/sunmi.jpg" alt="선미 -  ">
           </div>
           <div class="txt_box">
-            <h5>you can't sit with us</h5>
+            <h5>You can't stop with us</h5>
             <p>선미</p>
           </div>
           <div class="btn_box">
             <!-- <button type="button" class="btn01"><a class="btn01" href="#">재생버튼</a></button>
         <button type="button" class="btn02"><a class="btn02" href="#">멈춤버튼</a></button> -->
-            <a class="btn01 hidden" href="#">재생버튼</a>
+            <a class="btn01 hidden" href="play.html">재생버튼</a>
             <a class="btn02 hidden" href="#">멈춤버튼</a>
           </div>
         </div>
@@ -817,28 +536,28 @@
         <div class="under">
           <ul>
             <li>
-              <a href="#">
+              <a href="index.html">
                 <p class="img icon01 hidden">이미지</p>
                 <p class="txt">홈</p>
               </a>
             </li>
 
             <li>
-              <a href="#">
+              <a href="#like">
                 <p class="img icon02 hidden">이미지</p>
                 <p class="txt">찜</p>
               </a>
             </li>
 
             <li>
-              <a href="#">
+              <a href="#compass">
                 <p class="img icon03 hidden">이미지</p>
                 <p class="txt">둘러보기</p>
               </a>
             </li>
 
             <li>
-              <a href="#">
+              <a href="#store">
                 <p class="img icon04 hidden">이미지</p>
                 <p class="txt">보관함</p>
               </a>

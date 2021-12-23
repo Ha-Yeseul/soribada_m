@@ -85,7 +85,10 @@ $(document).ready(function () {
     var open = window.open("index.html", "_blank", "width=375, height=677");
     $(".layer_bg").hide();
   });
-
+  
+  if($('#wrap').width() <= '550' && $("#wrap").width()>='350'){
+    $(".layer_bg").hide();
+  }
   $(".layer_pop .close").click(function (e) {
     e.preventDefault();
     $(".layer_bg").hide();
@@ -106,4 +109,5 @@ $(document).ready(function () {
     e.preventDefault();
     $("nav").stop().slideUp();        
   });
+
 });
