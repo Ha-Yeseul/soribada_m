@@ -45,7 +45,7 @@ $(document).ready(function () {
         type: "squire",
         h4: "사랑은 늘 도망가",
         p: "임영웅",
-        img: "imyeongung.jpg"
+        img: "Imyeongung.jpg"
     },
     {
         type: "squire",
